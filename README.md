@@ -4,34 +4,38 @@ Description:
 Evaluates the candidate’s QA skills using an e-commerce order capture system as the use case. The assignment emphasizes automation, exploratory testing, test strategy design, and the ability to handle complex scenarios.
 
 ## Part 1: Test Strategy
+
 Scenario: You are tasked with testing an e-commerce order capture system with the following features:
-•	User registration and login.
-•	Browsing and searching for products with filters (e.g., category, price, brand).
-•	Adding products to the cart and modifying quantities.
-•	Completing the checkout process with multiple payment options.
-•	Order history and order cancellation features.
+- User registration and login.
+- Browsing and searching for products with filters (e.g., category, price, brand).
+- Adding products to the cart and modifying quantities.
+- Completing the checkout process with multiple payment options.
+- Order history and order cancellation features.
+
 Task:
-•	Develop a test strategy for the system, addressing:
-•	Different types of testing and their necessity.
-•	Prioritization of features and scenarios for testing.
-•	Test data generation and management strategies.
-•	Tools and frameworks you would use for automation, performance, and security testing.
-•	Risk analysis and mitigation strategies for the order capture system.
+- Develop a test strategy for the system, addressing:
+- Different types of testing and their necessity.
+- Prioritization of features and scenarios for testing.
+- Test data generation and management strategies.
+- Tools and frameworks you would use for automation, performance, and security testing.
+- Risk analysis and mitigation strategies for the order capture system.
 
 ## Part 2: Test Automation
+
 Scenario: Automate the end-to-end flow for placing an order in the e-commerce system. The flow includes:
-•	User login.
-•	Searching for a product using filters (e.g., “Electronics” under $100).
-•	Adding the product to the cart.
-•	Completing the checkout process with a selected payment method (assume a dummy payment gateway).
-•	Verifying the order confirmation details (e.g., order ID, product details, payment status).
+- User login.
+- Searching for a product using filters (e.g., “Electronics” under $100).
+- Adding the product to the cart.
+- Completing the checkout process with a selected payment method (assume a dummy payment gateway).
+- Verifying the order confirmation details (e.g., order ID, product details, payment status).
+
 Task:
-•	Write an automated script using a testing framework of your choice (e.g., Selenium, Cypress, Playwright).
-•	Include the following:
-  •	Data-driven testing for multiple sets of user credentials and product search criteria.
-  •	Assertions to verify order confirmation details.
-  •	Exception handling for scenarios such as “out-of-stock products” or “payment failure.”
-  •	Generate a test execution report.
+- Write an automated script using a testing framework of your choice (e.g., Selenium, Cypress, Playwright).
+- Include the following:
+	- Data-driven testing for multiple sets of user credentials and product search criteria.
+	- Assertions to verify order confirmation details.
+	- Exception handling for scenarios such as “out-of-stock products” or “payment failure.”
+	- Generate a test execution report.
 
 ## Part 3: Performance Testing
 Scenario: The e-commerce platform experiences high traffic during sales events like “Black Friday”
